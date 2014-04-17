@@ -12,7 +12,7 @@ var traverseDomAndCollectElements = function(startEl, matchFunc) {
   return resultSet;
 };
 
-var $ = function (selector) {
+var $ = function(selector) {
   var elements;
   
   // your code here
