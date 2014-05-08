@@ -2,7 +2,7 @@ describe("selector", function() {
   var elements;
 
   it("should select one element by id", function() {
-    elements = $('#pagetitle');
+    elements = $('#pagetitle'); //SELECTS BY ID 
     expect(elements.length).toEqual(1);
   });
 
